@@ -28,5 +28,7 @@ public class App
         adverb = sc.nextLine();
 
         System.out.println("Did you " + verb + " the " + adjective + " " + noun + " " + adverb);
+
+        sc.close();
     }
 }
